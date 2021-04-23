@@ -1,0 +1,36 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: yellow;
+}
+body .container {
+  width: 90%;
+  margin: auto;
+}
+body .container .row {
+  margin: 30px 0;
+}
+body .container .row h1 {
+  color: red;
+}
+body .container .row p {
+  color: red;
+  background-color: blue;
+  padding: 20px 20px;
+  margin: 20px 0;
+  border: 1px solid black;
+}
+body .container .row button {
+  color: red;
+  padding: 20px 20px;
+  border: 1px solid black;
+}
+
+.display {
+  transition: 1s;
+  opacity: 0;
+}

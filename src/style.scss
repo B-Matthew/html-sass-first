@@ -1,0 +1,39 @@
+$colorText: red;
+$paddingElem: 20px 20px;
+$borderColor: 1px solid black;
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: yellow;
+  .container {
+    width: 90%;
+    margin: auto;
+    .row {
+      margin: 30px 0;
+      h1 {
+        color: $colorText;
+      }
+      p {
+        color: $colorText;
+        background-color: blue;
+        padding: $paddingElem;
+        margin: 20px 0;
+        border: $borderColor;
+      }
+      button {
+        color: $colorText;
+        padding: $paddingElem;
+        border: $borderColor;
+      }
+    }
+  }
+}
+
+.display {
+  transition: 1s;
+  opacity: 0;
+}
